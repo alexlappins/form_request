@@ -27,5 +27,24 @@ const requesForm = async (form)=>{
     // }catch(error){
     //  console.log(error)
     // }
+    // либо fetch 
+   // try {
+   // const response = await fetch('endpoint', {
+    //    method: 'GET',
+    //    headers: {
+   //         'Content-Type': 'application/json'
+   //     },
+   //     body: JSON.stringify(form)
+  //  });
+    
+ //   if (!response.ok) {
+   //     throw new Error('Network response was not ok');
+  //  }
+
+  //  const responseData = await response.json();
+ //   const form_response = responseData.data;
+//} catch (error) {
+//    console.log(error);
+//}
 }
 </script>
