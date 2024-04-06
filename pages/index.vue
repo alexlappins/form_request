@@ -29,7 +29,7 @@ const requesForm = async (form)=>{
     // }
     // либо fetch 
    // try {
-   // const response = await fetch('endpoint', {
+   // const response = await $fetch('endpoint', {
     //    method: 'GET',
     //    headers: {
    //         'Content-Type': 'application/json'
